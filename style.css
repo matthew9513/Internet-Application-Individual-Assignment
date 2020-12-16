@@ -1,0 +1,300 @@
+.title{
+	color: white;   
+}
+
+header nav ul li{
+	display:inline;
+	font-size:1.0em;
+	list-style-type:none;
+	padding:10px;
+}
+
+
+
+.center{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h1{
+	font-size:250%;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+h3{
+	font-size:125%;
+	color:cyan;
+}
+
+
+p{
+	font-family:Times New Roman,Calibri,SimSun;
+	color:black;
+	font-size:175%;
+}
+
+body{
+	background-color:rgb(32, 31, 31);
+	color: white;
+}
+
+.details{
+	color: cyan;
+	font-size: 125%;
+}
+
+
+li{
+	font-family:Verdana;
+	font-size:125%;
+	color:cyan;
+}
+
+table{
+	font-family:Arial,Helvetica,sans-serif;
+	border-collapse:collapse;
+	width:100%;
+}
+
+td,th{
+	border: 3px solid rgb(12, 240, 12);
+	text-align:center;
+	padding:4px;
+	
+}
+
+.youtube{
+	text-decoration: none;
+	font-size: 150%;
+	padding: 5px 10px;
+	color: black;
+}
+
+tr:nth-child(odd) {
+	background-color: lightskyblue;
+}
+
+tr:nth-child(even){
+	background-color:lightgrey;
+}
+
+
+
+.link{
+	width:100%
+}
+
+.reference{
+	font-family:Arial Black;
+	color:azure;
+	font-size:30px;
+}
+
+
+
+.content{
+	font-family:SimSun;
+	list-style-type:circle;
+	color:black;
+	font-size:17px;
+	text-align:center;
+}
+
+.name{
+      word-spacing:3px;
+	  line-height:1.3;
+	  
+}
+
+.eMail {
+	background-color: white;
+	color: black;
+	border: 3px solid rgb(12, 240, 12);
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 200%;
+	font-family:Arial , Helvetica , sans-serif;
+}
+
+
+.userfeedback{
+	color:white;
+	font-family:SimSun;
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	color: white;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+
+
+/* On screens that are 768px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+.classforrichman{
+	float:left;
+	width:23%;
+	
+}
+
+.richman{
+	color:black;
+	font-family:Arial;
+}
+
+.border{
+	border: 6px solid black;
+}
+
+.border2{
+	float:left;
+	width:44%;
+	text-align:justify;
+	
+}
+
+.classforquote{
+	float:left;
+	width:33%;
+    
+}
+
+.quote{
+	color:white;
+	box-sizing:border-box;
+	width: 300px;
+	height: 100px;
+	padding: 30px; 
+    border: 10px solid green;
+    background-color:black;	
+}
+
+
+.quotes{
+	text-align:justify;
+}
+
+.content{
+	font-family:SimSun;
+	list-style-type:circle;
+	color:black;
+	font-size:17px;
+	text-align:center;
+}
+
+.name{
+      word-spacing:3px;
+	  line-height:1.3;
+	  
+}
+
+}
+@media screen and (max-width: 1024px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+
+@media screen and (max-width: 1024px) {
+
+  
+.richman{
+	color:black;
+	font-family:Arial;
+}
+
+.classforrichman{
+	float:none;
+	width:100%;
+}
+  
+.border{
+	border: 6px solid black;
+}
+
+.border2{
+	float:none;
+	width:100%;
+	text-align:justify;
+}
+  
+.classforquote{
+	float:none;
+	width:100%;
+	height:10%;
+}
+
+.quote{
+	color:white;
+	box-sizing:border-box;
+	width: 300px;
+	height: 100px;
+	padding: 30px; 
+    border: 10px solid green;
+    background-color:black;	
+	text-align:center;
+}
+
+
+.quotes{
+	text-align:justify;
+}
+
+
+  
+
+
+
+
+
+}
+}
