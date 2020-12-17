@@ -15,12 +15,27 @@
     <title>Author</title>
 
     <style>
-        .url{
+        .url {
             text-decoration: none;
-            color:white;
+            color: white;
         }
 
-        img{
+        .studentimg {
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .column {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -46,13 +61,27 @@
     <h2>BTPR1013 Internet Application</h2>
     <h2>Subject Provider: Ms Chan Ler-Kuan</h2>
     <h2>Assignment (Individual project)</h2>
-    <h2>Website URL: <a class="url" href="https://matthew9513.github.io/Internet-Application-Individual-Assignment/index.html">https://matthew9513.github.io/Internet-Application-Individual-Assignment/index.html</a>
-    <h2>Date of Submission: 18/12/2020</h2>
-    <h2>Student Name: Matthew Millienton Ong Zong Yang</h2>
-    <h2>Student ID: B200178B</h2>
-    <h2>Student Photo</h2>
-    <img src="B200178B.jpg" alt="studentimg" style="width:250px;height:300x;">   
-    
+    <h2>Website URL: <a class="url"
+            href="https://matthew9513.github.io/Internet-Application-Individual-Assignment/index.html">https://matthew9513.github.io/Internet-Application-Individual-Assignment/index.html</a>
+        <h2>Date of Submission: 18/12/2020</h2>
+        <h2>Student Name: Matthew Millienton Ong Zong Yang</h2>
+        <h2>Student ID: B200178B</h2>
+        <h2>Student Photo</h2>
+        <img src="B200178B.jpg" alt="studentimg" class="studentimg" style="width:15%;">
+        <h2>Documentation of images used</h2>
+        <div class="row">
+            <div class="column">
+                <img src="background-img.jpg" alt="Snow" style="width:30%">
+            </div>
+            <div class="column">
+                <img src="custompc.jpg" alt="Forest" style="width:30%">
+            </div>
+        </div>
+        <p>These are the photos taken by myself.</p>
+        <p>GIFS are made at <a href="https://ezgif.com/maker">https://ezgif.com/maker</a> and the photos used were from <a href="https://pixabay.com/">https://pixabay.com/</a>
+        </p>
+
+
 </body>
 
 
