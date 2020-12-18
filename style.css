@@ -2,15 +2,6 @@
 	color: white;   
 }
 
-header nav ul li{
-	display:inline;
-	font-size:1.0em;
-	list-style-type:none;
-	padding:10px;
-}
-
-
-
 .center{
  display: block;
   margin-left: auto;
