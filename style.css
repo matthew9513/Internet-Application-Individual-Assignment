@@ -64,9 +64,9 @@ table{
 }
 
 td,th{
-	border: 3px solid rgb(12, 240, 12);
+	border: 6px solid rgb(0, 0, 0);
 	text-align:center;
-	padding:4px;
+	padding:6px;
 	
 }
 
@@ -126,12 +126,6 @@ tr:nth-child(even){
 }
 
 
-.userfeedback{
-	color:white;
-	font-family:SimSun;
-	
-}
-
 * {
 	box-sizing: border-box;
 }
@@ -181,62 +175,45 @@ p {
 
 @media screen and (min-width: 1024px) {
 
-.classforrichman{
+.classforgpu{
 	float:left;
 	width:23%;
 	
 }
 
-.richman{
+.gpu{
 	color:black;
 	font-family:Arial;
 }
 
 .border{
 	border: 6px solid black;
+	float:right;
 }
 
 .border2{
-	float:left;
+	float: left;
 	width:44%;
 	text-align:justify;
 	
 }
 
-.classforquote{
-	float:left;
+.classfornewgames{
+	float:right;
 	width:33%;
     
 }
 
-.quote{
+.newgames{
 	color:white;
 	box-sizing:border-box;
-	width: 300px;
+	width: 425px;
 	height: 100px;
-	padding: 30px; 
-    border: 10px solid green;
-    background-color:black;	
+	padding: 6px; 
+    border: 6px solid black;
+	float:right;
 }
 
-
-.quotes{
-	text-align:justify;
-}
-
-.content{
-	font-family:SimSun;
-	list-style-type:circle;
-	color:black;
-	font-size:17px;
-	text-align:center;
-}
-
-.name{
-      word-spacing:3px;
-	  line-height:1.3;
-	  
-}
 
 }
 @media screen and (max-width: 1024px) {
@@ -247,7 +224,15 @@ p {
 
 @media screen and (max-width: 1024px) {
 
-  
+	.gpu{
+		color:black;
+		font-family:Arial;
+	}
+	
+	.classforgpu{
+		float:none;
+		width:100%;
+	}
   
 .border{
 	border: 6px solid black;
@@ -259,19 +244,19 @@ p {
 	text-align:justify;
 }
   
-.classforquote{
+.classfornewgames{
 	float:none;
 	width:100%;
 	height:10%;
 }
 
-.quote{
+.newgames{
 	color:white;
 	box-sizing:border-box;
-	width: 300px;
+	width: 425px;
 	height: 100px;
 	padding: 30px; 
-    border: 10px solid green;
+    border: 6px solid rgb(0, 0, 0);
     background-color:black;	
 	text-align:center;
 }
